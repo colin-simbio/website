@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA","sourcesContent":[".current {\n  color: white;\n  font-family: \"Times New Roman\", Times, serif;\n  font-size: 24px;\n}"],"file":"styles.css"}
