@@ -1,7 +1,29 @@
-.current {
+.overlay {
+  display: fle;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0); /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden; /* Disable vertical scroll */
+}
+
+.overlay-content {
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  left: 16px;
   color: white;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 16px;
+  padding: 8px;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=styles.css.map */
