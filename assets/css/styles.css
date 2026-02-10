@@ -1,5 +1,5 @@
 .overlay {
-  display: fle;
+  display: flex;
   flex-direction: column;
   position: relative;
   width: 100%;
@@ -23,6 +23,14 @@
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 14px;
   padding: 8px;
+  z-index: 2;
+}
+
+.links {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: white;
   z-index: 2;
 }
 
